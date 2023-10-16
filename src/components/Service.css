@@ -1,0 +1,53 @@
+.data{
+    background-color: #F4F4F4;
+}
+.service-card{
+    display:flex;
+   flex-direction: row;
+   justify-content:flex-start;
+   padding:50px;
+
+    
+}
+.card-image{
+    width:50%;
+}
+.card-image img{
+    position: relative;
+    top:100px;
+    height:600px;
+    width:500px;
+}
+.card-details{
+    width:50%;
+    margin:20px;
+    float:left;
+}
+.card-icon{
+    
+    height: 50px;
+    width:50px;
+    padding-bottom: 25px;
+}
+
+.card-title{
+    font-size: 30px;
+    text-align: left;
+}
+.card-desc {
+    padding-bottom: 25px;
+}
+.card-desc p{
+    font-size: 16px;
+    text-align: justify;
+}
+.card-description{
+    background-color: #E9EBFF;
+    padding: 20px;
+}
+.card-description p{
+    
+    text-decoration: none;
+    text-align: justify;
+}
+

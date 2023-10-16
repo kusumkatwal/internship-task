@@ -1,0 +1,32 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.navigation-left{
+    font-size: 25px;
+    width:25%;
+}
+.navigation-mid{
+    width:50%;
+}
+.navigation-mid a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    padding:20px;
+}
+.navigation-mid a:hover{
+    color:#124AF4;
+}
+.navigation-right{
+    width:25%;
+}
+.navigation-right a{
+    text-decoration: none;
+    padding:10px 20px;
+    background-color: #FFDC1C;
+    color:#124AF4;
+    font-weight: bold;
+}
